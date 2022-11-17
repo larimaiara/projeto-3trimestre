@@ -2,9 +2,6 @@
 
    background-color: burlywood;
 
-
-
-
  }
  .wrapper {
     
@@ -16,8 +13,119 @@
    box-shadow:  0px 14px 32px 0px rgba(0,0,0,0.15);
 
  }
- #cardapio-fit-1-860x485.jpg{
-float: :left;
-height: 420px;
-width: 327px;
+ #livrochorao{
+ float: left;
+ height: 420px;
+ width: 327px;
+ margin-top: 70px;
+ margin-left: 65px;
 }
+
+
+
+.produtotexto{
+   height: 250px;
+   width: 327px;
+ 
+}
+.produtotexto h1{
+    margin: 0 0 0 0 38px;
+    padding-top: 1px;
+    font-size: 34px;
+    color: lightsteelblue;
+
+}
+
+ .produtotexto h1, 
+ .bortaopreço p {
+           
+       font-family: 'benthman', serif;
+      
+      }
+ 
+
+ .produtotexto h2{
+
+   margin: 0 0 47px 38px;        
+  font-size: 13px;
+  font-family: 'raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color:cornflowerblue
+
+
+ }
+
+.produtotexto p{
+
+    height: 225px;
+    padding-bottom: 100px;
+    margin: 0 0 47px 38px;
+    font-family:'Playfair Display', serif;
+    color: deepskyblue;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+
+}
+
+ .bortaopreço{
+
+  height: 130px;
+  padding-right: 50px;
+  width: 327px;
+  margin-top: 30px;
+  position: relative;
+
+ }
+
+ .bortaopreço p{
+
+ display: inline-block;
+ position: absolute;
+ top: -13px;
+ height: 50px;
+ font-family: 'trocchi', serif;
+   margin: 0 0 0 50px;
+  font-size: 20px;
+ font-weight: lighter;
+ color: cadetblue;
+ }
+
+ span{
+     display: inline-block;
+     height: 110px;
+     margin: auto;
+    font-family: 'suranna', serif;
+    font-size: 34px;
+ }
+   
+ .bortaopreço button{
+
+  float: right;
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+  margin:  0 60px 0 16px ;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: cornflowerblue;
+  background-color: dodgerblue;
+  cursor: pointer;
+  outline: none;
+
+ }
+
+ .bortaopreço button:hover{
+ background-color: dodgerblue;
+
+
+
+ }
